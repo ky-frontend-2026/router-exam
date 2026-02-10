@@ -10,8 +10,12 @@ footer h3 {
 .sns-links {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
 }
 .sns-links a{
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     color: #fff;
 }

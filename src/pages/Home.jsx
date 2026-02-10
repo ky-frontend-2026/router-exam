@@ -23,11 +23,14 @@ const Home = () => {
           {homeSlides.map(({ id, title, img, subtitle }) => (
 
             <SwiperSlide key={id} style={{ backgroundImage: `url(${img})` }}>
+              <div className="inner">
 
-              <h4>
-                {title}
-              </h4>
-              <p>{subtitle}</p>
+
+                <h4>
+                  {title}
+                </h4>
+                <p>{subtitle}</p>
+              </div>
             </SwiperSlide>
           ))}
 
